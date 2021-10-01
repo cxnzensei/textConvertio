@@ -3,9 +3,7 @@ import React from 'react'
 function AsciiDropdown() {
     return (
         <div className="col-md-6">
-            <br />
-            <h3>ASCII text</h3>
-            <hr />
+            <h3 className='my-2'>ASCII text</h3>
             <label htmlFor="ascii" className="form-label">Copy text or download as .txt for a better view</label>
             <select className="form-select" id="ascii">
                 <option value="3-D">3-D</option>
